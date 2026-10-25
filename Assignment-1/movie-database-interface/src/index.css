@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root{
+  --bg: linear-gradient(135deg, #fff, #f0f8ff, #e1eeff);
+  --text: black;
+  --bg-nomatch: linear-gradient(135deg, #fff 0%, #e6f7fa 45%, #fff 100%);
+}
+
+html[data-theme="dark"]{
+  --bg: linear-gradient(135deg,#353535,#0d1b2a 55%,#001233);
+  --text: white;
+  --bg-nomatch: linear-gradient(135deg, #061a2b 0%, #0b3045 45%, #0e5261 75%, #123a50 100%);
+}
+
+.app{
+  background: var(--bg);
+  color: var(--text);
+}
+
+.logo-gradient{
+  background: linear-gradient(135deg, #ff4d4d 33%, #e50914 66%, #8b0000);
+  background-clip: text;
+  color: transparent;
+}
+
+.noMatchContainer{
+  background: var(--bg-nomatch);
+}
+

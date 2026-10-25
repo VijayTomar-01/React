@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="600" height="500" role="img" aria-labelledby="title desc">
+  <title id="title">VFlix logo</title>
+  <desc id="desc">A bold red V combined with a play symbol above the VFlix wordmark.</desc>
+  <g id="vflix-icon" transform="translate(30 20)">
+    <!-- Rounded geometric V -->
+    <path d="M45 28 H150 C176 28 195 42 207 67 L270 202 L333 67 C345 42 364 28 390 28 H448 L319 292 C307 316 289 329 270 329 C250 329 233 316 221 292 Z" fill="#E50914"/>
+    <!-- Subtle darker inner fold keeps the V distinctive without gradients -->
+    <path d="M270 202 L333 67 C345 42 364 28 390 28 H448 L319 292 C307 316 289 329 270 329 L270 202 Z" fill="#B20710" opacity="0.48"/>
+    <!-- Play triangle -->
+    <path d="M426 106 Q426 91 442 100 L553 172 Q568 182 553 192 L442 264 Q426 273 426 257 Z" fill="#E50914"/>
+  </g>
+  <g id="vflix-wordmark" fill="#E50914">
+    <text x="300" y="455" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="94" font-weight="800" letter-spacing="-4">VFlix</text>
+  </g>
+</svg>
