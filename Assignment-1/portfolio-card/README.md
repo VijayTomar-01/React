@@ -1,7 +1,7 @@
 # Project Links
 
-- **Github Repo:**[view source code](https://github.com/VijayTomar-01/React/tree/main/Assignment-1/movie-database-interface)
-- **Live Demo:**[view live project](https://moviedatabaseinterface.netlify.app/)
+- **Github Repo:**[view source code](https://github.com/VijayTomar-01/React/tree/main/Assignment-1/portfolio-card)
+- **Live Demo:**[view live project](https://portfoliocardui.netlify.app/)
 
 ## Dependency
 
