@@ -95,16 +95,16 @@ const Footer = () => {
         <p className='text-center text-sm'>Subscription is for Demonstration purpose. No emails are sent because this project doesnot include emailJs or backend services.</p>
         <form
         onSubmit={onFormSubmit} 
-        className='shadow-sm shadow-gray-500 rounded-sm hover:shadow-md'>
+        className='shadow-sm shadow-gray-500 flex flex-wrap items-center justify-center rounded-sm hover:shadow-md'>
           <input 
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder='Enter your Email'
-          className='outline-none px-3 py-1' />
+          className='outline-none px-1 lg:px-3 py-1' />
           <button
           type='submit' 
-          className='px-2 py-1 bg-[#667eea] rounded-r-sm cursor-pointer'>
+          className='px-1 py-1 bg-[#667eea] text-xs rounded-sm mr-1 cursor-pointer mb-1 active:scale-95 hover:scale-[1.02] transition-transform duration-200'>
             Subscribe
           </button>
         </form>
