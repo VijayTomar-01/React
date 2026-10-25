@@ -40,13 +40,13 @@ const CardActions = ({theme, setTheme, onNextImage, onPrevImage, imageIndex, tot
 
       <div className='flex items-center justify-center gap-x-2 '>
         <button
-        className='px-3 py-1 cursor-pointer hover:scale-[1.03] transition-all duration-200'
+        className='px-1 py-1 md:px-3 cursor-pointer hover:scale-[1.03] transition-all duration-200'
         onClick={onPrevImage}>
           <HiChevronLeft />
         </button>
         <span className='text-xs font-semibold'>{imageIndex + 1} / {totalImages}</span>
         <button
-        className='px-3 py-1 cursor-pointer hover:scale-[1.03] transition-all duration-200'
+        className='px-1 py-1 md:px-3 cursor-pointer hover:scale-[1.03] transition-all duration-200'
         onClick={onNextImage}>
           <HiChevronRight />
         </button>
@@ -68,7 +68,7 @@ const CardActions = ({theme, setTheme, onNextImage, onPrevImage, imageIndex, tot
       <div>
         <button
         onClick={onContact}
-        className='flex items-center justify-center gap-2 px-3 py-1 rounded-sm shadow-gray-500 bg-[#667eea] cursor-pointer shadow-sm hover:scale-[1.03] transition-all duration-200'>
+        className='flex items-center justify-center gap-1 md:gap-2 px-1 md:px-3 py-1 rounded-sm shadow-gray-500 bg-[#667eea] cursor-pointer shadow-sm hover:scale-[1.03] transition-all duration-200'>
           <MdOutlineMessage size={15}/>
           <span className='text-xs font-semibold'>Contact</span>
         </button>

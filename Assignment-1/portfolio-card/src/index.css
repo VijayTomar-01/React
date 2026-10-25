@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 :root{
   --bg: linear-gradient(135deg, #fff 33%, #e9ecef 66%, #f8f9fa 100%);
   --text-primary: black;
